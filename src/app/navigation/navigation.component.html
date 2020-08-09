@@ -1,0 +1,80 @@
+<nav id="nav-main">
+  <ul>
+    <li>
+      <a
+        routerLink="/home"
+        (click)="getActiveTab('home')"
+        [class.active]="activeTab === 'home'"
+        >HOME</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/gallery"
+        (click)="getActiveTab('gallery')"
+        [class.active]="activeTab === 'gallery'"
+        >CAKES</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/sweets"
+        (click)="getActiveTab('sweets')"
+        [class.active]="activeTab === 'sweets'"
+        >SWEETS</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/snacks"
+        (click)="getActiveTab('snacks')"
+        [class.active]="activeTab === 'snacks'"
+        >SNACKS</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/desserts"
+        (click)="getActiveTab('desserts')"
+        [class.active]="activeTab === 'desserts'"
+        >DESSERTS</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/about"
+        (click)="getActiveTab('about')"
+        [class.active]="activeTab === 'about'"
+        >ABOUT US</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/contact"
+        (click)="getActiveTab('contact')"
+        [class.active]="activeTab === 'contact'"
+        >CONTACT US</a
+      >
+    </li>
+    <li style="width: 10%;">
+      <b
+        ><img
+          style="width: 15%;"
+          src="assets/images/telephone.png"
+        />&nbsp;&nbsp;98765 43210</b
+      >
+    </li>
+    <li style="width: 5%;">
+      <span
+        ><img style="width: 25%;" src="assets/images/signin.png" />Hello, Sign
+        In</span
+      >
+    </li>
+    <li style="width: 8%;">
+      <span
+        ><img style="width: 20%;" src="assets/images/cart.jpg" />My Cart, Cart
+        Items</span
+      >
+    </li>
+  </ul>
+</nav>

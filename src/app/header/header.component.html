@@ -1,0 +1,44 @@
+<header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+  <div id="header" class="nav-solid">
+    <div class="row clearfix">
+      <div class="col-1">
+        <!--Logo-->
+        <div id="logo">
+          <!--Logo that is shown on the banner-->
+          <img
+            src="assets/images/mylogo.png"
+            id="banner-logo"
+            alt="Landing Page"
+          />
+          <!--End of Banner Logo-->
+          <img
+            src="assets/images/mylogo.png"
+            id="navigation-logo"
+            alt="Landing Page"
+          />
+          <!--End of Navigation Logo-->
+        </div>
+        <!--End of Logo-->
+        <app-navigation></app-navigation>
+        <!--End of Main Navigation-->
+
+        <div id="nav-trigger"><span></span></div>
+        <nav id="nav-mobile"></nav>
+      </div>
+    </div>
+  </div>
+  <!--End of Header-->
+
+  <!--Banner Content-->
+  <div id="banner-content" class="row clearfix">
+    <ng-image-slider
+      #nav
+      [images]="bannerImageObject"
+      [infinite]="false"
+      [autoSlide]="1"
+      [imageSize]="{ width: '100%', height: 500 }"
+      slideImage="1"
+    ></ng-image-slider>
+  </div>
+  <!--End of Row-->
+</header>

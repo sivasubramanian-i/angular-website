@@ -1,0 +1,23 @@
+.col-2 {
+  width: 15%;
+  background: #fff;
+  margin: 10px;
+  border-radius: 5px;
+  height: 225px;
+}
+.col-2 img {
+  width: 100%;
+}
+.imagesDiv {
+  background: #dffbf1;
+  margin-top: 15px;
+  border-radius: 150px / 110px;
+  width: 90%;
+  padding: 10px;
+}
+.imagesClass {
+  width: 13%;
+  float: left;
+  text-align: center;
+  margin: 18px;
+}
